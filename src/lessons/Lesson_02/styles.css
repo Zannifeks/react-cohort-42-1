@@ -1,0 +1,36 @@
+.lesson_02_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 50px;
+}
+
+.page_title {
+    color: plum;
+    font-size: 50px;
+}
+
+.button-control {
+    width: 300px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+    height: fit-content;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 40px;
+}
+
+.card-info {
+    font-size: 24px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
